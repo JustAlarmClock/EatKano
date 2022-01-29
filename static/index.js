@@ -441,10 +441,10 @@ const MODE_NORMAL = 1, MODE_ENDLESS = 2, MODE_PRACTICE = 3;
             SubmitResults();
         }
 
-        if (cps <= 5) return '馆长很生气';
-        if (cps <= 8) return '呦，你算老几啊';
-        if (cps <= 10)  return '至少不用卸胳膊腿';
-        if (cps <= 15) return '劲啊！！！';
+        if (score <= 49) return '馆长很生气';
+        if (score <= 99) return '呦，你算老几啊';
+        if (score <= 149)  return '至少不用卸胳膊腿';
+        if (score <= 199) return '劲啊！！！';
         return '劲啊！！！';
     }
 
