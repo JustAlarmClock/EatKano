@@ -441,11 +441,11 @@ const MODE_NORMAL = 1, MODE_ENDLESS = 2, MODE_PRACTICE = 3;
             SubmitResults();
         }
 
-        if (cps <= 5) return '馆长很生气';
-        if (cps <= 8) return '呦，你算老几啊';
-        if (cps <= 10)  return '至少不用卸胳膊腿';
-        if (cps <= 15) return '劲啊！！！';
-        return '奇迹';
+        if (cps <= 5) return '你从窗户跳出去了';
+        if (cps <= 8) return '安黛因很生气';
+        if (cps <= 10)  return '我要把你大卸八块!';
+        if (cps <= 15) return '嘎啊！！！';
+        return '决心';
     }
 
     function toStr(obj) {
