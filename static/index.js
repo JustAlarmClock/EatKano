@@ -441,10 +441,10 @@ const MODE_NORMAL = 1, MODE_ENDLESS = 2, MODE_PRACTICE = 3;
             SubmitResults();
         }
 
-        if (cps <= 4) return '馆长很生气';
-        if (cps <= 9) return '呦，你算老几啊';
-        if (cps <= 14)  return '至少不用卸胳膊腿';
-        if (cps <= 19) return '劲啊！！！';
+        if (cps <= 5) return '馆长很生气';
+        if (cps <= 8) return '呦，你算老几啊';
+        if (cps <= 10)  return '至少不用卸胳膊腿';
+        if (cps <= 15) return '劲啊！！！';
         return '奇迹';
     }
 
